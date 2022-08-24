@@ -1,0 +1,13 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Enviando dados
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+<ion-button (click)="guardar()">Chamando Parte um</ion-button>
+
+<a [routerLink]="['/receba/']" [queryParams]="{id:1}">Ver mais</a>
+</ion-content>
